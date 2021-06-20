@@ -23,9 +23,47 @@
 
         <div id="display-wrapper" class="top-20">
         </div>
+
         <div class="row top-20">
-            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+            <label class="form">Register Airline</label>
+            Airline address:<input type="text" id="airline-address">
+            Airline name:<input type="text" id="airline-name">
+            <btn class="btn btn-primary" id="register-airline">Register Airline</btn>
         </div>
+
+
+        <div class="row top-20">
+            <label class="form">Registered Airlines</label>
+            <select id="airlines"></select>
+        </div>
+
+        <div class="row top-20">
+            <label class="form">Flight</label> <input type="text" id="flight-number"><label class="form">Flight Timestamp</label> <input type="text" id="flight-timestamp"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+
+
+        <div class="row top-20">
+            <label for="flight">Purchase Insurance</label>
+            <select id="passengers"></select>
+            <label for="flight">Flight:</label>
+            <select id="flights"></select>
+            <input type="text" id="insurance"/>eth
+            <button class="btn btn-primary" id="purchase">Purchase</button>
+        </div>
+
+        <div class="row top-20">
+            <label for="flight">Insurance</label>
+            Passenger<input type="text" id="passengerid">
+            <button class="btn btn-primary" id="show">Show Funds</button>
+        </div>
+
+
+        <div class="row top-20">
+            <label for="flight">Withdraw funds</label>
+            Passengers<input type="text" id="passengerid">
+            <button class="btn btn-primary" id="withdraw">Withdraw</button>
+        </div>
+
     </main>
 
 </body>
